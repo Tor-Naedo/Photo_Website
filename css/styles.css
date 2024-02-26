@@ -1,0 +1,293 @@
+body{
+	background-color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+	}
+
+header nav{
+    float: right;
+}
+
+header{
+    background-color: grey;
+    color: #fff;
+    min-height: 50px;
+    padding:10px 20px;
+}
+
+header nav li{
+    display: inline;
+    padding: 5px;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.header_pic {
+    background-image: url("../img/DSC_2174_copy.JPG");
+    background-size:contain;
+    padding: 350px 0px;
+}
+
+.login-container {
+    padding: 20px;
+    text-align: center;
+}
+
+
+form{
+	
+	width: 500px;
+	margin: 50px auto;
+}
+
+
+.usernameinput, .passwordinput{
+        display: block;
+        padding: 8px 16px;
+        font-size:2em;
+        margin: 10px auto;
+        border: 3px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        outline: none;
+    }
+ 
+
+input{
+    display: block;
+    padding: 8px 16px;
+    font-size:2em;
+    margin: 10px auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+    
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 150px;
+    border: none;
+    border-radius: 900px;
+    margin-left: 41%;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: black;
+    margin-left: 40%;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+form{
+    margin: 0px;
+	width: 100%;
+	text-align: justify;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.header_pic{
+    background-image: url("../img/DSC_2174_copy.JPG");
+    background-size:contain;
+    padding: 350px 0px;
+}
+
+.backgroundpic{
+    background-image: url("../img/DSC_2174_copy.JPG");
+    background-size:cover;
+    padding: 100px;
+}
+
+.header_pic p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.header_pic h1{
+    color: white;
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.BlackNWhitePics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 60px;
+}
+
+.BlackNWhitePics img{
+ width: 100%;
+}
+
+.Colorbackgroundpic{
+    background-image: url("../img/BlackandWhite/DSC_2174.JPG");
+    background-size:cover;
+    padding: 100px;
+}
+
+.ColorPics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 60px;
+}
+
+.ColorPics img{
+ width: 100%;
+}
+
+.Pics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 50px;
+}
+
+.Pics img{
+ width: 100%;
+}
+
+.image-container {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.image-header {
+    color: white; 
+    font-size: 30px; 
+    margin-top: 10px; 
+    font-style: italic;
+}
+
+.image-details{
+    color: white;
+    font-size: 15px; 
+    margin-top: 10px; 
+}
+
+.image-containeer p {
+    color: white;
+    font-style: italic;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    margin: 0 10px; 
+}
+
+.icons img {
+    width: 30px; 
+    height: auto; 
+}
+
+
+#footer{
+    padding: 45px;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+.add-to-cart {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: aliceblue;
+}
+
+
+.quantitylabel {
+    margin-right: 0px; 
+}
+
+.image-containeer label, .image-containeer select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Invoice form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Invoice .form-group {
+    width: 48%; 
+    margin-bottom: 10px;
+}
+
+.Invoice label,
+.Invoice input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group{
+    padding-right: 2%;
+}
+.Invoice button {
+    width: 100%;
+}
+
+.clear_btn{
+    margin: 0px;
+}
+
+.terms-container {
+    display: flex;
+    align-items: center;
+}
+
+.terms-container label {
+    font-size: 14px;
+    color: white;
+    margin-right: 45%;
+}
+
+.btn-invoice{
+    margin: 60px 700px;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Shopping</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    </head>
+
+    <body>
+        <header id="top">
+            <div class="content">
+                <nav>
+                    <ul>
+                        <li><a href="./Welcome.html">Welcome</a></li>
+                        <li><a href="./Black&White.html">Black & White</a></li>
+                        <li><a href="./Color.html">Color Gallery</a></li>
+                        <li class="current"><a href="#">Shopping</a></li>
+                        <li><a href="./Invoice.html">Invoice</a></li>
+                        <li><a href="./Home.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       
+    <main>
+    <div class="backgroundpic">
+  
+        <div class="container">
+            <h1>Shopping</h1>
+    <div class="Pics">
+
+        <div class="image-containeer" data-price="20.00">
+            <p><a href="./img/BlackandWhite/DSC_2174.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2174.JPG"></a></p>
+            <h2 class="image-header">Loneliness</h2> 
+            <p>$20.00</p>
+            <label for="quantity1">Quantity:</label>
+            <select id="quantity1" name="quantity1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <button class="add-to-cart" onclick="addToCart('Loneliness', 'quantity1', 20.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2178.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2178.JPG"></a></p>
+        <h2 class="image-header">Left out</h2> 
+        <p>$30.00</p>
+        <label for="quantity2">Quantity:</label>
+        <select id="quantity2" name="quantity2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <button class="add-to-cart" onclick="addToCart('Left out', 'quantity2', 30.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2282_copy.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2282_copy.JPG"></a></p>
+        <h2 class="image-header">Late Night Drive</h2> 
+        <p>$50.00</p>
+        <label for="quantity3">Quantity:</label>
+    <select id="quantity3" name="quantity3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <button class="add-to-cart" onclick="addToCart('Late Night Drive', 'quantity3', 50.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2303.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2303.JPG"></a></p>
+        <h2 class="image-header">Life</h2> 
+        <p>$40.00</p>
+        <label for="quantity4">Quantity:</label>
+        <select id="quantity4" name="quantity4">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>   
+            </select>
+            <br>
+            <button class="add-to-cart" onclick="addToCart('Life', 'quantity4', 40.00)">Add to Cart</button>
+            </div>
+
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2329_copy.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2329_copy.JPG"></a></p>
+        <h2 class="image-header">Lost and Found</h2> 
+        <p>$25.00</p>
+        <label for="quantity5">Quantity:</label>
+        <select id="quantity5" name="quantity5">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <button class="add-to-cart" onclick="addToCart('Lost and Found', 'quantity5', 25.00)">Add to Cart</button>
+        </div>
+
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2468_copy.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2468_copy.JPG"></a></p>
+        <h2 class="image-header">Lively</h2> 
+        <p>$30.00</p>
+        <label for="quantity6">Quantity:</label>
+        <select id="quantity6" name="quantity6">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+        <button class="add-to-cart" onclick="addToCart('Lively', 'quantity6', 30.00)">Add to Cart</button>
+            </div>
+
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2481.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2481.JPG"></a></p>
+        <h2 class="image-header">Lost</h2> 
+        <p>$20.00</p>
+        <label for="quantity7">Quantity:</label>
+        <select id="quantity7" name="quantity7">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <button class="add-to-cart" onclick="addToCart('Lost', 'quantity7', 20.00)">Add to Cart</button>
+        </div>
+
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2485.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2485.JPG"></a></p>
+        <h2 class="image-header">Light of Hope</h2> 
+        <p>$15.00</p>
+        <label for="quantity8">Quantity:</label>
+        <select id="quantity8" name="quantity8">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+        <button class="add-to-cart" onclick="addToCart('Light of Hope', 'quantity8', 15.00)">Add to Cart</button>
+            </div>
+
+
+            <div class="image-containeer">
+                <p><a href="./img/BlackandWhite/DSC_2572.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2572.JPG"></a></p>
+                <h2 class="image-header">Light</h2> 
+               <p>$25.00</p>
+               <label for="quantity9">Quantity:</label>
+               <select id="quantity9" name="quantity9">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+        <button class="add-to-cart" onclick="addToCart('Light', 'quantity9', 25.00)">Add to Cart</button>
+            </div>
+
+
+        <div class="image-containeer">
+        <p><a href="./img/BlackandWhite/DSC_2634_copy.JPG" target="_blank"><img src="./img/BlackandWhite/DSC_2634_copy.JPG"></a></p>
+        <h2 class="image-header">Lane</h2> 
+        <p>$25.00</p>
+        <label for="quantity10">Quantity:</label>
+        <select id="quantity10" name="quantity10">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Lane', 'quantity10', 25.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+            <p><a href="./img/DSC_2174_copy.JPG" target="_blank"><img src="./img/DSC_2174_copy.JPG"></a></p>
+            <h2 class="image-header">Loneliness</h2> 
+            <p>$40.00</p>
+            <label for="quantity11">Quantity:</label>
+            <select id="quantity11" name="quantity11">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Loneliness', 'quantity11', 40.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2178_copy - Copy.JPG" target="_blank"><img src="./img/DSC_2178_copy - Copy.JPG"></a></p>
+        <h2 class="image-header">Left out</h2> 
+        <p>$40.00</p>
+        <label for="quantity12">Quantity:</label>
+        <select id="quantity12" name="quantity12">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Left out', 'quantity12', 40.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2282_copy.JPG" target="_blank"><img src="./img/DSC_2282_copy.JPG"></a></p>
+        <h2 class="image-header">Late Night Drive</h2> 
+        <p>$80.00</p>
+        <label for="quantity13">Quantity:</label>
+        <select id="quantity13" name="quantity13">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Late Night Drive', 'quantity13', 80.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2303_copy.JPG" target="_blank"><img src="./img/DSC_2303_copy.JPG"></a></p>
+        <h2 class="image-header">Life</h2> 
+        <p>$45.00</p>
+        <label for="quantity14">Quantity:</label>
+        <select id="quantity14" name="quantity14">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Life', 'quantity14', 45.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2329_copy.JPG" target="_blank"><img src="./img/DSC_2329_copy.JPG"></a></p>
+        <h2 class="image-header">Lost and Found</h2> 
+        <p>$70.00</p>
+        <label for="quantity15">Quantity:</label>
+        <select id="quantity15" name="quantity15">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Lost and Found', 'quantity15', 70.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2468_copy.JPG" target="_blank"><img src="./img/DSC_2468_copy.JPG"></a></p>
+        <h2 class="image-header">Lively</h2> 
+        <p>$70.00</p>
+        <label for="quantity16">Quantity:</label>
+        <select id="quantity16" name="quantity16">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Lively', 'quantity16', 70.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2481_copy.JPG" target="_blank"><img src="./img/DSC_2481_copy.JPG"></a></p>
+        <h2 class="image-header">Lost</h2> 
+        <p>$40.00</p>
+        <label for="quantity17">Quantity:</label>
+        <select id="quantity17" name="quantity17">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Lost', 'quantity17', 40.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2485_copy.JPG" target="_blank"><img src="./img/DSC_2485_copy.JPG"></a></p>
+        <h2 class="image-header">Light of Hope</h2> 
+        <p>$30.00</p>
+        <label for="quantity18">Quantity:</label>
+        <select id="quantity18" name="quantity18">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Light of Hope', 'quantity18', 30.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2572_copy.JPG" target="_blank"><img src="./img/DSC_2572_copy.JPG"></a></p>
+        <h2 class="image-header">Light</h2> 
+        <p>$35.00</p>
+        <label for="quantity19">Quantity:</label>
+        <select id="quantity19" name="quantity19">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Light', 'quantity19', 35.00)">Add to Cart</button>
+        </div>
+
+        <div class="image-containeer">
+        <p><a href="./img/DSC_2634_copy.JPG" target="_blank"><img src="./img/DSC_2634_copy.JPG"></a></p>
+        <h2 class="image-header">Lane</h2> 
+        <p>$40.00</p>
+        <label for="quantity20">Quantity:</label>
+        <select id="quantity20" name="quantity20">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>   
+        </select>
+        <br>
+    <button class="add-to-cart" onclick="addToCart('Lane', 'quantity20', 40.00)">Add to Cart</button>
+        </div>          
+    </div>
+    </div>
+    <button class="btn-invoice" onclick="redirectToInvoice()">Invoice</button>
+</div>
+</div>
+
+</main>
+
+<footer id="footer">
+    <div class="icons">
+    <p><a href="https://www.facebook.com/" target="_blank"><img src="./img/socials/fb.png"></a></p>
+
+    <p><a href="https://www.instagram.com/" target="_blank"><img src="./img/socials/Instagram_logo.png"></a></p>
+
+    <p><a href="https://www.tiktok.com/" target="_blank"><img src="./img/socials/TikTok-icon-white-symbol-glyph-png.png"></a></p>
+
+    <p><a href="https://twitter.com/home" target="_blank"><img src="./img/socials/22-220532_black-and-white-twitter-logo-png.png"></a></p>
+    </div>
+    
+    <p>Copyright &copy; 2018 My Website</p>
+</footer>
+
+<script src="./java/main.js"></script>
+</body>
+</html>

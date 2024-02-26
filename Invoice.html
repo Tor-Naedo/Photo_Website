@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <header id="top">
+        <div class="content">
+            <nav>
+                <ul>
+                    <li><a href="./Welcome.html">Welcome</a></li>
+                    <li><a href="./Black&White.html">Black & White</a></li>
+                    <li><a href="./Color.html">Color Gallery</a></li>
+                    <li><a href="./Shopping.html">Shopping</a></li>
+                    <li class="current"><a href="#">Invoice</a></li>
+                    <li><a href="./Home.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="backgroundpic">
+            <div class="container">
+                <div class="Invoice">
+                    <form class="myForm">
+                        <div class="form-group">
+                            <h1>Credit Card Info</h1>
+                            <label class="credit-label">*Credit Card:</label>
+                            <input type="text" placeholder="111111111111" required>
+                            <label class="credit-label">*CVC:</label>
+                            <input type="number" placeholder="222" required>
+                            <label class="credit-label">*Name on the Card:</label>
+                            <input type="text" placeholder="aaaa aaaa" required>
+                            <label class="credit-label">*Expiration:</label>
+                            <input type="number" placeholder="MM/YY" required>
+                            <button class="clear_btn" type="clear" value="clear">Clear</button>
+                            <label class="credit-label">Total:</label>
+                            <input type="number">
+                            <label>Show Terms</label>
+                            <br>
+                            <div class="terms-container">
+                                <input type="checkbox" name="terms" id="termsCheckbox" required>
+                                <label for="termsCheckbox">*Agree to the Terms and Conditions</label>
+                            </div>
+                            <button class="clear_btn" type="submit" value="submit">Purchase</button>
+                        </div>
+                        <div class="form-group">
+                            <h1>Shipping Address</h1>
+                            <label class="shipping-label">*Name:</label>
+                            <input type="text" placeholder="aaaa aaaa" required>
+                            <label class="shipping-label">*Address:</label>
+                            <input type="text" placeholder="333 aaaa" required>
+                            <label class="shipping-label">*Address Line 2:</label>
+                            <input type="text" placeholder="333 aaaa" required>
+                            <label class="shipping-label">*City:</label>
+                            <input type="text" placeholder="aaaa" required>
+                            <label class="shipping-label">*Postal Code</label>
+                            <input type="text" placeholder="333 aaaa" required>
+                            <label class="shipping-label">*Province:</label>
+                            <input type="text" placeholder="333 aaaa" required>
+                            <label class="shipping-label">*Country:</label>
+                            <input type="text" placeholder="333 aaaa" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="icons">
+            <p><a href="https://www.facebook.com/" target="_blank"><img src="./img/socials/fb.png"></a></p>
+            <p><a href="https://www.instagram.com/" target="_blank"><img src="./img/socials/Instagram_logo.png"></a></p>
+            <p><a href="https://www.tiktok.com/" target="_blank"><img src="./img/socials/TikTok-icon-white-symbol-glyph-png.png"></a></p>
+            <p><a href="https://twitter.com/home" target="_blank"><img src="./img/socials/22-220532_black-and-white-twitter-logo-png.png"></a></p>
+        </div>
+        <p>Copyright &copy; 2018 My Website</p>
+    </footer>
+    <script src="./java/main.js"></script>
+</body>
+
+</html>
